@@ -68,7 +68,7 @@ export default function TabContent({ tasks, title }) {
                     <strong>+</strong> Add New Task
                 </Button>
             </div>
-            <ListGroup as="ol" style={{ backgroundColor: "transparent", margin: "0 20px" }}>
+            <ListGroup as="ol" style={{ backgroundColor: "transparent", margin: "auto", maxWidth: "500px" }}>
                 {tasks && tasks.map((task, index) => (
                     <ListGroup.Item
                         as="li"
